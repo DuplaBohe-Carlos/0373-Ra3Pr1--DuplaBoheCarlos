@@ -9,37 +9,37 @@
 <body>
   <div class="contenidor">
     <h1>Calculadora de notes d'alumnes</h1>
-
+ 
     <form id="formulariAlumne">
       <div class="camp">
         <label for="nom">Nom de l'alumne</label>
         <input type="text" id="nom" name="nom">
       </div>
-
+ 
       <div class="camp">
         <label for="examen">Nota examen</label>
         <input type="number" id="examen" name="examen" step="0.01">
       </div>
-
+ 
       <div class="camp">
         <label for="practiques">Nota pràctiques</label>
         <input type="number" id="practiques" name="practiques" step="0.01">
       </div>
-
+ 
       <div class="camp">
         <label for="actitud">Nota actitud</label>
         <input type="number" id="actitud" name="actitud" step="0.01">
       </div>
-
+ 
       <div class="botons">
         <button type="submit">Afegir alumne</button>
-        <button type="button" id="ordenarAsc">Ordenar per nota ↑</button>
-        <button type="button" id="ordenarDesc">Ordenar per nota ↓</button>
+        <button type="button" id="ordenarAsc">Ordenar per nota (menor a major)</button>
+        <button type="button" id="ordenarDesc">Ordenar per nota (major a menor)</button>
       </div>
     </form>
-
+ 
     <div id="missatge"></div>
-
+ 
     <h2>Llista d'alumnes</h2>
     <table>
       <thead>
@@ -56,7 +56,7 @@
       </tbody>
     </table>
   </div>
-
+ 
   <script src="script.js"></script>
 </body>
 </html>
